@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/font.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/board.css">
+	<link rel="stylesheet" href="../css/product.css">
+  <link rel="stylesheet" href="../css/company.css">
+  <link rel="stylesheet" href="../css/res.css">
+
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../js/common.js"></script>
+	<title>QR SITE_문의</title>
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- S: header-->
+    <header id="header">
+      <div class="inner">
+        <div class="hd_menu">
+                <button type="button" class="btn-hambuger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </button>
+                <nav class="menu-category" style="display:none;">
+                        <ul>
+                                <li>
+                                        <a href="#">카테고리1</a>
+                                        <ul>
+                                                <li><a href="#">카테고리 1_1</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                        <a href="#">카테고리2</a>
+                                        <ul>
+                                                <li><a href="#">카테고리 2_1</a></li>
+                                                <li><a href="#">카테고리 2_2</a></li>
+                                                <li><a href="#">카테고리 2_3</a></li>
+                                                <li><a href="#">카테고리 2_4</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                        <a href="#">카테고리3</a>
+                                        <ul>
+                                                <li><a href="#">카테고리 3_1</a></li>
+                                                <li><a href="#">카테고리 3_2</a></li>
+                                                <li><a href="#">카테고리 3_3</a></li>
+                                                <li><a href="#">카테고리 3_4</a></li>
+                                                <li><a href="#">카테고리 3_5</a></li>
+                                                <li><a href="#">카테고리 3_6</a></li>
+                                        </ul>
+                                </li>
+                        </ul>
+                </nav>
+        </div>
+        <h1 class="hd_logo">
+            <a href="#"><img src="../images/common/hd_logo.gif" alt="GTEC KOREA"></a>
+        </h1>
+        <div class="hd_sarchgroup pc">
+          <input type="text" class="input-search">
+          <button type="button" class="btn-search"><span class="visuallyhidden">검색</span></button>
+        </div>
+        <div class="hd_sarchgroup mobile">
+          <button class="search-open"><span class="visuallyhidden">검색</span></button>
+        </div>
+      </div>
+      <!-- //모바일 서치 레이어 -->
+      <div class="layer-search">
+        <div class="search-inner">
+          <input type="text" class="input-search">
+          <button class="btn-search"><span class="visuallyhidden">검색</span></button>
+          <button class="btn-searchClose">x<span class="visuallyhidden">닫기</span></button>
+        </div>
+      </div>
+    </header>
+    <!-- E: header -->
+
+    <!-- S: container -->
+    <div id="container" class="sub_container inquiry">
+      <div class="visually_banner">
+        <h3 class="visuallyhidden">배너영역</h3>
+        <div class="banner">
+          <img src="" alt="">
+        </div>
+      </div>
+
+      <!-- S: section -->
+      <secion class="section">
+        <h3 class="tit">문의하기</h3>
+        <p class="summary">제품에 대해 궁금하신 점이 있다면 문의하세요.</p>
+
+        <!-- // form-inner -->
+        <div class="form-inner">
+          <form action="">
+            <div class="form-wrapper">
+              <div class="distable">
+                <dl class="form-dl cell">
+                  <dt><label for="inquiry_type" class="form-label">문의유형 <span class="asterisk">*</span></label></dt>
+                  <dd>
+                    <select name="inquiry_type" id="inquiry_type" class="form-select">
+                      <option value="1">기타</option>
+                      <option value="2">구매문의</option>
+                      <option value="3">상품문의</option>
+                    </select>
+                  </dd>
+                </dl>
+                <dl class="form-dl cell">
+                  <dt><label for="inquiry_code" class="form-label">상품 코드명</label></dt>
+                  <dd><input type="text" id="inquiry_code" class="form-input readonly" readonly value="GTPE-819"></dd>
+                </dl>
+              </div>
+              <dl class="form-dl">
+                <dt><label for="user_name" class="form-label">성함 <span class="asterisk">*</span></label></dt>
+                <dd><input type="text" id="user_name" class="form-input"></dd>
+              </dl>
+              <dl class="form-dl">
+                <dt><label for="user_phone" class="form-label">연락처</label></dt>
+                <dd><input type="text" id="user_phone" class="form-input" ></dd>
+              </dl>
+              <dl class="form-dl">
+                <dt><label for="user_email" class="form-label">이메일 <span class="asterisk">*</span></label></dt>
+                <dd><input type="text" id="user_email" class="form-input"></dd>
+              </dl>
+              <dl class="form-dl">
+                <dt><label for="inquiry_title" class="form-label">제목 <span class="asterisk">*</span></label></dt>
+                <dd>
+                  <input type="text" id="inquiry_title" class="form-input">
+                </dd>
+              </dl>
+              <dl class="form-dl">
+                <dt><label for="inquiry_area" class="form-label">내용 <span class="asterisk">*</span></label></dt>
+                <dd>
+                  <textarea type="text" id="inquiry_area" class="form-area"></textarea>
+                </dd>
+              </dl>
+            </div>
+          </form>
+          <p class="form-ftguide">문의 답변은 이메일로 발송됩니다.</p>
+        </div>
+      </section><!-- E: section -->
+
+      <!-- //btn-gtoup -->
+      <div class="btn-group">
+        <button type="button" class="btn-submit">문의하기</button>
+      </div>
+
+    </div> 
+    <!-- E: container -->
+
+    <!-- S: footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="ft_top">
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">찾아오시는 길</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">문의하기</a></li>
+        </ul>
+        <div class="ft_bottom">
+          <ul>
+            <li>
+              Office : (Milak-dong, Yeji Plus 11) 4F, 233 Omok-ro, Uijeongbu-Si, Gyeonggi-do, Korea (Post Code: 11813)
+            </li>
+            <li>
+              <span>Tel : 82-31-853-9022</span>
+              <span>Fax : 82-31-853-9025</span>
+              <span>Email: gtec@gteckorea.co.kr</span>
+            </li>
+            <li>
+              Mill : 126, Pocheon-ro 898beon-gil, Gasan-myeon, Pocheon-Si, Gyeonggi-Do, South Korea (Post Code: 11164)
+            </li>
+          </ul>
+        </div>
+        <small class="ft_copyright">Copyright (C) 2012 G.TEC KOREA.Co.,Ltd All Rights Reserved.</small>
+      </div>
+    </footer>
+    <!-- E: footer -->
+
+  </div>
+  <!-- E: wrapper -->
+</body>
+</html>

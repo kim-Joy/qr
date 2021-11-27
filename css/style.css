@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.slick-arrow {display: none !important;} 
+
+/* ================================================
+  icon
+==================================================*/
+.icon-zzim {display: inline-block; border-radius: 100%;  width: 30px; height: 30px; background-color: darkred; vertical-align: middle;}
+
+
+/* =======================================
+	form  design
+=========================================*/ 
+.form-wrapper {margin-top: 40px; }
+.form-inner {position: relative; max-width: 680px; margin: 0 auto; padding: 0 10px; }
+.form-inner:after {content: ""; clear: both; display: block; height: 0; visibility: hidden; }
+.form-ftguide {margin-top: 4px; font-size: 12px; color: #70757A;}
+
+.form-dl {margin-top: 16px; }
+.form-dl dt {padding-bottom:8px;}
+.form-dl .form-label {font-size: 15px; color: #202124; }
+.form-dl .asterisk {font-size: 13px; color: #C5221F; vertical-align: text-top;}
+.form-dl dd {}
+.form-dl .form-input {width: 100%; background-color: #fff; color: #4d5156; }
+
+.form-dl.cell {display: table-cell;}
+.form-dl.row {display: table-row;}
+
+/* =======================================
+	button 
+=========================================*/ 
+.btn-group {margin: 32px auto; padding: 0 10px; text-align: center; }
+
+.btn-submit {max-width: 320px; width: 100%; height: 60px; box-sizing: border-box; border-radius: 5px; background-color: #3baaba; line-height: 60px; color: #fff; font-size: 18px; text-align: center; }
+.btn-cancel {max-width: 320px; width: 100%; height: 60px; box-sizing: border-box; border: 1px solid #EBEBEB; border-radius: 5px; background-color: #F1F3F4; line-height: 58px; color: #4D5156; font-size: 18px; text-align: center; }
+
+
+/* pagination */
+.pagination {margin: 40px auto 16px; text-align: center; }
+.pagination ul {display: inline-block; }
+.pagination ul:after {content: ''; display: block; clear: both; visibility: hidden;}
+.pagination li {float: left; width: 36px; height: 36px; border-radius: 5px; }
+.pagination li a {display: block; font-size: 13px; color: #4d5156;line-height: 36px; }
+.pagination li:hover {background-color: #3baaba; }
+.pagination li:hover > a {color: #fff; }

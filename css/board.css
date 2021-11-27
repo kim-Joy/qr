@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* =======================================
+	sub_container 
+=========================================*/ 
+.sub_container .visually_banner {width: 100%; height: 300px; background-color: #c0c0c0; }
+
+
+
+/* =======================================
+	inquiry 
+=========================================*/ 
+.inquiry {border-bottom: 2px solid #2b2b2c; background-color: #202124; }
+
+.inquiry .section h3 {margin-top: 72px; margin-bottom: 16px; text-align: center; font-size: 35px; font-weight: 300; color: #fff; }
+.inquiry .section .summary {font-size: 20px; color: #fff; text-align: center; }
+
+.inquiry .form-wrapper {padding-bottom: 32px; border-bottom: 1px solid #fff; }
+.inquiry .distable > .form-dl {width: calc(50% - 8px); }
+.inquiry .distable > .form-dl:first-child {padding-right: 8px;}
+.inquiry .distable > .form-dl:last-child {padding-left: 8px;}
+.inquiry .form-label {color: #ffff; }

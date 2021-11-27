@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* =======================================
+	common
+=========================================*/ 
+.company {border-bottom: 2px solid #2b2b2c; background-color: #202124; }
+
+.company .section {margin: 72px auto; }
+.company .section h3 {margin-top: 72px; margin-bottom: 16px; text-align: center; font-size: 35px; font-weight: 300; color: #fff; }
+.company .section .summary {font-size: 20px; color: #fff; text-align: center; }
+
+.company .company-info {margin-top: 48px; }
+.company .float-rt {width: calc(100% - 400px); margin-top: 16px; }
+.company .float-rt .txt {margin-bottom: 56px; font-size: 18px; color: #fff; }
+
+.company .list-dash li {margin-top: 16px; color: #a1a1a1; font-size: 14px; }
+.company .list-dash li:first-child {margin-top: 0; }
+
+.company .company-map { }
+
+.google-map {width: 100%; height: 300px; background-color: #fff; text-align: center; line-height: 300px;}
